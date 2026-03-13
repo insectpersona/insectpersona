@@ -1,0 +1,35 @@
+body{
+margin:0;
+display:flex;
+justify-content:center;
+background:#111;
+}
+
+#game{
+position:relative;
+width:1000px;
+}
+
+#scene{
+width:100%;
+display:block;
+}
+
+.choice{
+position:absolute;
+left:27%;
+width:46%;
+height:7%;
+cursor:pointer;
+}
+
+/* positions des réponses */
+
+#choiceA{ top:46%; }
+#choiceB{ top:56%; }
+#choiceC{ top:66%; }
+#choiceD{ top:76%; }
+
+.startButton{
+top:42%;
+}
